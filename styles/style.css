@@ -6,3 +6,109 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family:Verdana;
+    width: 100%;
+    /* font-size: 10px; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+max-width: 10%;
+max-height: 10%;
+}
+
+
+.right-links ul li {  /* Falta aperfeiçoar links*/
+display: inline;
+flex-direction: row;
+justify-content: flex-end;
+align-items: baseline;
+list-style-type: none;
+}  
+
+.section1 {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 800px;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.h2-section2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px  
+}
+
+
+.whats-on-spotify-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+    color: #1A1A1A;
+    
+}
+
+
+.whats-on-spotify-box div img {
+    max-width: 20%;
+    max-height: 20%;
+} 
+
+h3 {
+    color: #00B172;
+}
+
+
+.section3 {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+
+.h2-section3 {
+    text-decoration: underline;
+    font-size: 30px
+    /* Falta pôr os títulos a negrito e afastar mais os textos.*/
+}
+
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.spotify-icon-white {
+    max-width: 30%;
+    max-height: 30%;   /* Falta centrar mais o logo */
+}
+
+.kanyeWest {
+    max-width: 60%;
+    max-height: 60%;
+}
